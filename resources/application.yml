@@ -1,0 +1,17 @@
+app:
+  clients:
+    hostname: localhost
+    scheme: http
+    httpPort: 9200
+    containerPort: 9200
+  #elastic:
+   # imageUrl: docker.elastic.co/elasticsearch/elasticsearch
+   # version: 7.7.0
+  index:
+    name: after
+    shard: 2
+    replica: 1
+    from: 0
+    size: 5
+    timeout: 60
+    

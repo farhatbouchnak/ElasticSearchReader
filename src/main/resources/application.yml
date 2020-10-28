@@ -1,0 +1,14 @@
+app:
+  clients:
+    hostname: localhost
+    scheme: http
+    httpPort: 9200
+    containerPort: 9200
+  index:
+    name: after
+    shard: 2
+    replica: 1
+    from: 0
+    size: 10
+    timeout: 60
+    
